@@ -1,0 +1,26 @@
+# DBT specific
+target/
+dbt_packages/
+logs/
+.user.yml
+
+# Python and environments
+.env
+*.pyc
+__pycache__/
+venv/
+env/
+.python-version
+
+# OS specific files
+.DS_Store
+Thumbs.db
+
+# IDE Files
+.idea/
+.vscode/
+*.sublime-project
+*.sublime-workspace
+
+# Credentials
+profiles.yml
