@@ -26,7 +26,7 @@ The project is organized into the following main directories:
   * **`package-lock.yml`:** Records the  versions of the packages installed.
   * **`dbt_packages/`:** Directory where dbt installs the external packages.
   * **`logs/`:** Contains the dbt run logs.
-  * **`macros/`:** Placeholder to add custom dbt macros in the future.
+  * **`macros/`:** Contains custom dbt macros for operations used often .
   * **`models/`:** Contains the SQL models that define the data transformations.
     * **`staging/`:** Models that directly select and clean data from the raw Open Food Facts data in Snowflake (`stg_off_products.sql`).
     * **`intermediate/`:** Models that perform further transformations and aggregations (`int_product_allergens.sql`).
