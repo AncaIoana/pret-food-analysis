@@ -12,6 +12,7 @@ The primary data source for this project is the Open Food Facts database. The ra
 
 * **dbt (data build tool):** Used for transforming and modeling data in Snowflake.
 * **Snowflake:** Cloud-based data warehouse where the data is stored and transformed.
+* **AWS S3:** Used to store the Parquet data file
 * **SQL:** The language used for data transformation within dbt and for interacting with Snowflake.
 * **Tableau Cloud:** Used for creating and hosting the interactive dashboard visualizing the analysis results.
 
