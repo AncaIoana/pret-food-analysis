@@ -37,7 +37,7 @@ select
     pa.product_code,
     pa.product_name,
     pa.brands,
-    array_agg(pc.category) as categories, -- Aggregate English categories into an array; a product might have multiple relevant English category tags
+    array_agg(pc.category) as categories, 
     pa.allergen
 from product_allergens pa
 left join product_categories pc on pa.product_code = pc.product_code
